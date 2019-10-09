@@ -1,0 +1,10 @@
+C:\Users\zee8ca\source\repos\JoanBookStore\JoanBookStore\bin\Debug\netcoreapp2.1\JoanBookStore.deps.json
+C:\Users\zee8ca\source\repos\JoanBookStore\JoanBookStore\bin\Debug\netcoreapp2.1\JoanBookStore.runtimeconfig.json
+C:\Users\zee8ca\source\repos\JoanBookStore\JoanBookStore\bin\Debug\netcoreapp2.1\JoanBookStore.runtimeconfig.dev.json
+C:\Users\zee8ca\source\repos\JoanBookStore\JoanBookStore\bin\Debug\netcoreapp2.1\JoanBookStore.dll
+C:\Users\zee8ca\source\repos\JoanBookStore\JoanBookStore\bin\Debug\netcoreapp2.1\JoanBookStore.pdb
+C:\Users\zee8ca\source\repos\JoanBookStore\JoanBookStore\obj\Debug\netcoreapp2.1\JoanBookStore.csproj.CoreCompileInputs.cache
+C:\Users\zee8ca\source\repos\JoanBookStore\JoanBookStore\obj\Debug\netcoreapp2.1\JoanBookStore.AssemblyInfoInputs.cache
+C:\Users\zee8ca\source\repos\JoanBookStore\JoanBookStore\obj\Debug\netcoreapp2.1\JoanBookStore.AssemblyInfo.cs
+C:\Users\zee8ca\source\repos\JoanBookStore\JoanBookStore\obj\Debug\netcoreapp2.1\JoanBookStore.dll
+C:\Users\zee8ca\source\repos\JoanBookStore\JoanBookStore\obj\Debug\netcoreapp2.1\JoanBookStore.pdb

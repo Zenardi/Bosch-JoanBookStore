@@ -1,0 +1,8 @@
+{
+  "profiles": {
+    "JoanBookStore": {
+      "commandName": "Project",
+      "commandLineArgs": "C:\\Users\\zee8ca\\source\\repos\\JoanBookStore\\JoanBookStore\\TestFiles\\"
+    }
+  }
+}
