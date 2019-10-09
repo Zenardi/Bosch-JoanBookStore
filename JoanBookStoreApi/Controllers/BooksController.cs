@@ -21,7 +21,7 @@ namespace JoanBookStoreApi.Controllers
 
         [HttpGet]
         public ActionResult<List<Book>> Get() =>
-            _bookService.Get();
+            _bookService.Get().OrderBy(o => o.Genre).OrderBy(o => o.Author.Split(' ')[1]).OrderBy(o => o.Author.Split(' ')[0]).ToList();
 
         [HttpGet("{id:length(24)}", Name = "GetBook")]
         public ActionResult<Book> Get(string id)
@@ -41,7 +41,7 @@ namespace JoanBookStoreApi.Controllers
         {
             _bookService.Create(book);
 
-            return CreatedAtRoute("GetBook", new { id = book.ISBN.ToString() }, book);
+            return CreatedAtRoute("GetBook", new { id = book.Id.ToString() }, book);
         }
 
         [HttpPut("{id:length(24)}")]

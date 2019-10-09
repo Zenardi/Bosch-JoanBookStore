@@ -22,8 +22,8 @@ namespace JoanBookStoreApi.Services
         public List<Book> Get() =>
             _books.Find(book => true).ToList();
 
-        public Book Get(string ISBN) =>
-            _books.Find<Book>(book => book.ISBN == ISBN).FirstOrDefault();
+        public Book Get(string Id) =>
+            _books.Find<Book>(book => book.Id == Id).FirstOrDefault();
 
         public Book Create(Book book)
         {
@@ -31,13 +31,13 @@ namespace JoanBookStoreApi.Services
             return book;
         }
 
-        public void Update(string ISBN, Book bookIn) =>
-            _books.ReplaceOne(book => book.ISBN == ISBN, bookIn);
+        public void Update(string Id, Book bookIn) =>
+            _books.ReplaceOne(book => book.ISBN == Id, bookIn);
 
         public void Remove(Book bookIn) =>
-            _books.DeleteOne(book => book.ISBN == bookIn.ISBN);
+            _books.DeleteOne(book => book.Id == bookIn.Id);
 
-        public void Remove(string ISBN) =>
-            _books.DeleteOne(book => book.ISBN == ISBN);
+        public void Remove(string Id) =>
+            _books.DeleteOne(book => book.Id == Id);
     }
 }

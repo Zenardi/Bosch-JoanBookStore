@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\zee8ca\\source\\repos\\JoanBookStore\\JoanBookStoreApi\\JoanBookStoreApi.csproj": {}
+    "C:\\Users\\duzen\\source\\repos\\Bosch-JoanBookStore\\JoanBookStoreApi\\JoanBookStoreApi.csproj": {}
   },
   "projects": {
-    "C:\\Users\\zee8ca\\source\\repos\\JoanBookStore\\JoanBookStoreApi\\JoanBookStoreApi.csproj": {
+    "C:\\Users\\duzen\\source\\repos\\Bosch-JoanBookStore\\JoanBookStoreApi\\JoanBookStoreApi.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\zee8ca\\source\\repos\\JoanBookStore\\JoanBookStoreApi\\JoanBookStoreApi.csproj",
+        "projectUniqueName": "C:\\Users\\duzen\\source\\repos\\Bosch-JoanBookStore\\JoanBookStoreApi\\JoanBookStoreApi.csproj",
         "projectName": "JoanBookStoreApi",
-        "projectPath": "C:\\Users\\zee8ca\\source\\repos\\JoanBookStore\\JoanBookStoreApi\\JoanBookStoreApi.csproj",
-        "packagesPath": "C:\\Users\\zee8ca\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\zee8ca\\source\\repos\\JoanBookStore\\JoanBookStoreApi\\obj\\",
+        "projectPath": "C:\\Users\\duzen\\source\\repos\\Bosch-JoanBookStore\\JoanBookStoreApi\\JoanBookStoreApi.csproj",
+        "packagesPath": "C:\\Users\\duzen\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\duzen\\source\\repos\\Bosch-JoanBookStore\\JoanBookStoreApi\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
         ],
         "configFilePaths": [
-          "C:\\Users\\zee8ca\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\duzen\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -53,6 +53,7 @@
               "version": "[2.1.2, )"
             },
             "Microsoft.NETCore.App": {
+              "suppressParent": "All",
               "target": "Package",
               "version": "[2.1.0, )",
               "autoReferenced": true
@@ -63,10 +64,16 @@
             }
           },
           "imports": [
-            "net461"
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
           ],
           "assetTargetFallback": true,
-          "warn": true
+          "warn": true,
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.0.100\\RuntimeIdentifierGraph.json"
         }
       }
     }

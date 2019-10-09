@@ -12,12 +12,16 @@ namespace JoanBookStoreApi.Model
     /// </summary>
     public class Book
     {
+        [BsonId]
+        [BsonRepresentation(BsonType.ObjectId)]
+        public string Id { get; set; }
+
         public String Title { get; set; }
 
         public String Description { get; set; }
 
-        [BsonId]
-        [BsonRepresentation(BsonType.ObjectId)]
+        //[BsonId]
+        //[BsonRepresentation(BsonType.ObjectId)]
         public String ISBN { get; set; }
 
         public String Author { get; set; }

@@ -1,6 +1,8 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Text;
+using MongoDB.Bson;
+using MongoDB.Bson.Serialization.Attributes;
 
 namespace JoanBookStore.Domain
 {
@@ -10,6 +12,8 @@ namespace JoanBookStore.Domain
 
         public String Description { get; set; }
 
+        [BsonId]
+        [BsonRepresentation(BsonType.ObjectId)]
         public String ISBN { get; set; }
 
         public String Author { get; set; }

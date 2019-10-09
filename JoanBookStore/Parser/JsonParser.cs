@@ -45,6 +45,7 @@ namespace JoanBookStore.Parser
 
         public static void ConsolidadeJsonFile(String filePath, List<BookManifest> bookManifests)
         {
+
             JsonSerializer serializer = new JsonSerializer();
             serializer.Converters.Add(new JavaScriptDateTimeConverter());
             serializer.NullValueHandling = NullValueHandling.Ignore;
@@ -54,6 +55,19 @@ namespace JoanBookStore.Parser
             {
                 serializer.Serialize(writer, bookManifests);
             }
+        }
+
+        public static string ToJsonObjectSingle(BookManifest bookManifest)
+        {
+            DataContractJsonSerializer js = new DataContractJsonSerializer(typeof(BookManifest));
+            MemoryStream msObj = new MemoryStream();
+            js.WriteObject(msObj, bookManifest);
+            msObj.Position = 0;
+            StreamReader sr = new StreamReader(msObj);
+
+            string json = sr.ReadToEnd();
+
+            return json;
         }
     }
 }

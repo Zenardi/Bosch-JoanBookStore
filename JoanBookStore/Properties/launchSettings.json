@@ -2,7 +2,7 @@
   "profiles": {
     "JoanBookStore": {
       "commandName": "Project",
-      "commandLineArgs": "C:\\Users\\zee8ca\\source\\repos\\JoanBookStore\\JoanBookStore\\TestFiles\\"
+      "commandLineArgs": "C:\\Users\\duzen\\source\\repos\\Bosch-JoanBookStore\\JoanBookStore\\TestFiles"
     }
   }
 }
