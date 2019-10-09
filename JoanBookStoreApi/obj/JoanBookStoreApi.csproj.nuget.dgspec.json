@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\zee8ca\\source\\repos\\JoanBookStore\\JoanBookStore\\JoanBookStore.csproj": {}
+    "C:\\Users\\zee8ca\\source\\repos\\JoanBookStore\\JoanBookStoreApi\\JoanBookStoreApi.csproj": {}
   },
   "projects": {
-    "C:\\Users\\zee8ca\\source\\repos\\JoanBookStore\\JoanBookStore\\JoanBookStore.csproj": {
+    "C:\\Users\\zee8ca\\source\\repos\\JoanBookStore\\JoanBookStoreApi\\JoanBookStoreApi.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\zee8ca\\source\\repos\\JoanBookStore\\JoanBookStore\\JoanBookStore.csproj",
-        "projectName": "JoanBookStore",
-        "projectPath": "C:\\Users\\zee8ca\\source\\repos\\JoanBookStore\\JoanBookStore\\JoanBookStore.csproj",
+        "projectUniqueName": "C:\\Users\\zee8ca\\source\\repos\\JoanBookStore\\JoanBookStoreApi\\JoanBookStoreApi.csproj",
+        "projectName": "JoanBookStoreApi",
+        "projectPath": "C:\\Users\\zee8ca\\source\\repos\\JoanBookStore\\JoanBookStoreApi\\JoanBookStoreApi.csproj",
         "packagesPath": "C:\\Users\\zee8ca\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\zee8ca\\source\\repos\\JoanBookStore\\JoanBookStore\\obj\\",
+        "outputPath": "C:\\Users\\zee8ca\\source\\repos\\JoanBookStore\\JoanBookStoreApi\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -41,9 +41,16 @@
       "frameworks": {
         "netcoreapp2.1": {
           "dependencies": {
-            "CsvHelper": {
+            "Microsoft.AspNetCore.App": {
+              "suppressParent": "All",
               "target": "Package",
-              "version": "[12.1.2, )"
+              "version": "[2.1.1, )",
+              "autoReferenced": true
+            },
+            "Microsoft.AspNetCore.Razor.Design": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.1.2, )"
             },
             "Microsoft.NETCore.App": {
               "target": "Package",
@@ -53,14 +60,6 @@
             "MongoDB.Driver": {
               "target": "Package",
               "version": "[2.9.2, )"
-            },
-            "Newtonsoft.Json": {
-              "target": "Package",
-              "version": "[12.0.2, )"
-            },
-            "TinyCsvParser": {
-              "target": "Package",
-              "version": "[2.5.2, )"
             }
           },
           "imports": [
