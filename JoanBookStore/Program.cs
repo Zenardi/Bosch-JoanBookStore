@@ -47,20 +47,20 @@ namespace JoanBookStore
 
             ///serialize and write file
             ///
-            JsonParser.ConsolidadeJsonFile(filesPath + @"ConsolidatedBooks.json", SortedList);
+            JsonParser.ConsolidadeJsonFile(filesPath + @"\ConsolidatedBooks.json", SortedList);
 
 
 
             ///INSERT TO MONGODB
-            String json = String.Empty;
-            List<BsonDocument> documents = new List<BsonDocument>();
-            for (int i = 0; i < SortedList.Count; i++)
-            {
-                String j = JsonParser.ToJsonObjectSingle(SortedList.ElementAt(i));
-                documents.Add(BsonSerializer.Deserialize<BsonDocument>(j));
-            }
+            //String json = String.Empty;
+            //List<BsonDocument> documents = new List<BsonDocument>();
+            //for (int i = 0; i < SortedList.Count; i++)
+            //{
+            //    String j = JsonParser.ToJsonObjectSingle(SortedList.ElementAt(i));
+            //    documents.Add(BsonSerializer.Deserialize<BsonDocument>(j));
+            //}
 
-            InsertToMongDb(documents);
+            //InsertToMongDb(documents);
 
         }
 
