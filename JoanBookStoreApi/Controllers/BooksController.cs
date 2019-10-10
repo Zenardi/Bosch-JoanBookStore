@@ -44,17 +44,36 @@ namespace JoanBookStoreApi.Controllers
             return CreatedAtRoute("GetBook", new { id = book.Id.ToString() }, book);
         }
 
-        [HttpPut("{id:length(24)}")]
-        public IActionResult Update(string id, Book bookIn)
+        [HttpPut("{isbn}")]
+        public IActionResult Update(string isbn, Book bookIn)
         {
-            var book = _bookService.Get(id);
+            var book = _bookService.GetByIsbn(isbn);
+            //var book = _bookService.Get(id);
 
             if (book == null)
             {
                 return NotFound();
             }
 
-            _bookService.Update(id, bookIn);
+            //_bookService.Update(id, bookIn);
+            _bookService.UpdateByIsbn(isbn, bookIn);
+
+            return NoContent();
+        }
+
+        [HttpPatch("{isbn}")]
+        public IActionResult Path(string isbn, Book bookIn)
+        {
+            var book = _bookService.GetByIsbn(isbn);
+            //var book = _bookService.Get(id);
+
+            if (book == null)
+            {
+                return NotFound();
+            }
+
+            //_bookService.Update(id, bookIn);
+            _bookService.UpdateByIsbn(isbn, bookIn);
 
             return NoContent();
         }

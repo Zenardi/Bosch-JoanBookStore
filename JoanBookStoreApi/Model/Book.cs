@@ -20,8 +20,6 @@ namespace JoanBookStoreApi.Model
 
         public String Description { get; set; }
 
-        //[BsonId]
-        //[BsonRepresentation(BsonType.ObjectId)]
         public String ISBN { get; set; }
 
         public String Author { get; set; }

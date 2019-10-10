@@ -25,14 +25,21 @@ namespace JoanBookStoreApi.Services
         public Book Get(string Id) =>
             _books.Find<Book>(book => book.Id == Id).FirstOrDefault();
 
+        public Book GetByIsbn(string isbn) =>
+            _books.Find<Book>(book => book.ISBN == isbn).FirstOrDefault();
+
         public Book Create(Book book)
         {
             _books.InsertOne(book);
             return book;
         }
 
-        public void Update(string Id, Book bookIn) =>
-            _books.ReplaceOne(book => book.ISBN == Id, bookIn);
+        public void Update(string id, Book bookIn) =>
+            _books.ReplaceOne(book => book.Id == id, bookIn);
+
+        public void UpdateByIsbn(string isbn, Book bookIn) =>
+           _books.ReplaceOne(book => book.ISBN == isbn, bookIn);
+
 
         public void Remove(Book bookIn) =>
             _books.DeleteOne(book => book.Id == bookIn.Id);

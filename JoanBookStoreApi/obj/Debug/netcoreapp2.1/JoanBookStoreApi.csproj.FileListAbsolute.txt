@@ -27,3 +27,17 @@ C:\Users\duzen\source\repos\Bosch-JoanBookStore\JoanBookStoreApi\obj\Debug\netco
 C:\Users\duzen\source\repos\Bosch-JoanBookStore\JoanBookStoreApi\obj\Debug\netcoreapp2.1\JoanBookStoreApi.RazorTargetAssemblyInfo.cache
 C:\Users\duzen\source\repos\Bosch-JoanBookStore\JoanBookStoreApi\obj\Debug\netcoreapp2.1\JoanBookStoreApi.dll
 C:\Users\duzen\source\repos\Bosch-JoanBookStore\JoanBookStoreApi\obj\Debug\netcoreapp2.1\JoanBookStoreApi.pdb
+C:\Users\zee8ca\source\repos\Bosch-JoanBookStore\JoanBookStoreApi\bin\Debug\netcoreapp2.1\JoanBookStoreApi.deps.json
+C:\Users\zee8ca\source\repos\Bosch-JoanBookStore\JoanBookStoreApi\bin\Debug\netcoreapp2.1\JoanBookStoreApi.runtimeconfig.json
+C:\Users\zee8ca\source\repos\Bosch-JoanBookStore\JoanBookStoreApi\bin\Debug\netcoreapp2.1\JoanBookStoreApi.runtimeconfig.dev.json
+C:\Users\zee8ca\source\repos\Bosch-JoanBookStore\JoanBookStoreApi\bin\Debug\netcoreapp2.1\JoanBookStoreApi.dll
+C:\Users\zee8ca\source\repos\Bosch-JoanBookStore\JoanBookStoreApi\bin\Debug\netcoreapp2.1\JoanBookStoreApi.pdb
+C:\Users\zee8ca\source\repos\Bosch-JoanBookStore\JoanBookStoreApi\obj\Debug\netcoreapp2.1\JoanBookStoreApi.csprojAssemblyReference.cache
+C:\Users\zee8ca\source\repos\Bosch-JoanBookStore\JoanBookStoreApi\obj\Debug\netcoreapp2.1\JoanBookStoreApi.csproj.CoreCompileInputs.cache
+C:\Users\zee8ca\source\repos\Bosch-JoanBookStore\JoanBookStoreApi\obj\Debug\netcoreapp2.1\JoanBookStoreApi.RazorAssemblyInfo.cache
+C:\Users\zee8ca\source\repos\Bosch-JoanBookStore\JoanBookStoreApi\obj\Debug\netcoreapp2.1\JoanBookStoreApi.RazorAssemblyInfo.cs
+C:\Users\zee8ca\source\repos\Bosch-JoanBookStore\JoanBookStoreApi\obj\Debug\netcoreapp2.1\JoanBookStoreApi.AssemblyInfoInputs.cache
+C:\Users\zee8ca\source\repos\Bosch-JoanBookStore\JoanBookStoreApi\obj\Debug\netcoreapp2.1\JoanBookStoreApi.AssemblyInfo.cs
+C:\Users\zee8ca\source\repos\Bosch-JoanBookStore\JoanBookStoreApi\obj\Debug\netcoreapp2.1\JoanBookStoreApi.RazorTargetAssemblyInfo.cache
+C:\Users\zee8ca\source\repos\Bosch-JoanBookStore\JoanBookStoreApi\obj\Debug\netcoreapp2.1\JoanBookStoreApi.dll
+C:\Users\zee8ca\source\repos\Bosch-JoanBookStore\JoanBookStoreApi\obj\Debug\netcoreapp2.1\JoanBookStoreApi.pdb
