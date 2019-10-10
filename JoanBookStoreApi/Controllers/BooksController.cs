@@ -19,21 +19,33 @@ namespace JoanBookStoreApi.Controllers
             _bookService = bookService;
         }
 
+        //[HttpGet(Name = "Get all Books")]
+        //public ActionResult<List<Book>> Get() =>
+        //    _bookService.Get().OrderBy(o => o.Genre).OrderBy(o => o.Author.Split(' ')[1]).OrderBy(o => o.Author.Split(' ')[0]).ToList();
+
+        //[HttpGet("{id:length(24)}", Name = "GetBook")]
+        //public ActionResult<Book> Get(string id)
+        //{
+        //    var book = _bookService.Get(id);
+
+        //    if (book == null)
+        //    {
+        //        return NotFound();
+        //    }
+
+        //    return book;
+        //}
+
         [HttpGet]
-        public ActionResult<List<Book>> Get() =>
-            _bookService.Get().OrderBy(o => o.Genre).OrderBy(o => o.Author.Split(' ')[1]).OrderBy(o => o.Author.Split(' ')[0]).ToList();
-
-        [HttpGet("{id:length(24)}", Name = "GetBook")]
-        public ActionResult<Book> Get(string id)
+        public List<Book> Get(string genre = "", String author = "", String title="")
         {
-            var book = _bookService.Get(id);
+            title = title.Replace("\"", "");
+            author = author.Replace("\"", "");
+            genre = genre.Replace("\"", "");
 
-            if (book == null)
-            {
-                return NotFound();
-            }
+            if (genre == "" && author == "" && title == "") return _bookService.Get();
 
-            return book;
+            return _bookService.Filter(genre, author, title);
         }
 
         [HttpPost]

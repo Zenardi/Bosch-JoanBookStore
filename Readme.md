@@ -104,3 +104,28 @@ Feel free to fork this repository and run with it.
 GLHF,
 
 - The Bluehound Team
+
+
+# Results
+I used .Net Core C# and MongoDB (local) for this project. You can run in Windows or Linux envirioments.
+
+JoanBookStore project imports csv, json and tab-separated files into the local database and write a consolidade file in the same directory passed as parameter for console app. 
+Example: 
+In the command line:
+dotnet run <path_to_dll>/JoanBookStore.dll <path where the files are>
+
+
+JoanBookStoreApi is the web based application. When you run it, you can access the following endpoints:
+
+Filtering:
+http://localhost:52883/api/books?genre="Movie History & Criticism"&title="Movies (And Other Things)"
+http://localhost:52883/api/books?title="Movies (And Other Things)"&author="Shea Serrano"
+http://localhost:52883/api/books?genre="Children"&author="Eric Carle"
+
+Path: http://localhost:52883/api/books/9780062963673
+
+Get: localhost:52883/api/books
+
+Post: localhost:52883/api/books
+
+

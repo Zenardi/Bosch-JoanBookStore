@@ -8,7 +8,6 @@ using System.Threading.Tasks;
 namespace JoanBookStoreApi.Model
 {
     /// <summary>
-    /// https://docs.microsoft.com/pt-br/aspnet/core/tutorials/first-mongo-app?view=aspnetcore-3.0&tabs=visual-studio
     /// </summary>
     public class Book
     {
