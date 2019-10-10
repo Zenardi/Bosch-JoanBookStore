@@ -112,7 +112,13 @@ I used .Net Core C# and MongoDB (local) for this project. You can run in Windows
 JoanBookStore project imports csv, json and tab-separated files into the local database and write a consolidade file in the same directory passed as parameter for console app. 
 Example: 
 In the command line:
-dotnet run <path_to_dll>/JoanBookStore.dll <path where the files are>
+
+
+dotnet run JoanBookStore.dll path_where_the_files_are
+
+Consolidate file: ConsolidatedBooks.json
+
+
 
 
 JoanBookStoreApi is the web based application. When you run it, you can access the following endpoints:
