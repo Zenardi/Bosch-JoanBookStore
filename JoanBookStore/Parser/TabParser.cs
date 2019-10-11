@@ -37,7 +37,7 @@ namespace JoanBookStore.Parser
 
                 bookManifest.Title = row.ItemArray[0].ToString();
                 bookManifest.Description = row.ItemArray[1].ToString();
-                bookManifest.ISBN = row.ItemArray[2].ToString();
+                bookManifest.ISBN = Convert.ToInt64(row.ItemArray[2].ToString());
                 bookManifest.Author = row.ItemArray[3].ToString();
                 bookManifest.Genre = row.ItemArray[4].ToString();
                 bookManifest.Pages = Convert.ToInt32(row.ItemArray[5].ToString());

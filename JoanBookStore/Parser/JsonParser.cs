@@ -29,6 +29,8 @@ namespace JoanBookStore.Parser
             {
                 if(BookManifestOperations.IsIsbnExistInList(bookManifests, item.ISBN))
                 {
+                    //int convertedISBN = 0;
+                    //int.TryParse(item.ISBN, out convertedISBN);
                     //BookManifestOperations.CreateOrUpdateEntry(booksManifests, bookManifest);
                     var dict = bookManifests.ToDictionary(x => x.ISBN);
                     BookManifest found;

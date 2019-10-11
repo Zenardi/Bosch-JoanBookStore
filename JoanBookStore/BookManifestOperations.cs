@@ -16,7 +16,7 @@ namespace JoanBookStore
             return bookManifestsConsolidated;
         }
 
-        public static bool IsIsbnExistInList(List<BookManifest> bookManifests, String Isbn)
+        public static bool IsIsbnExistInList(List<BookManifest> bookManifests, long Isbn)
         {
             var r = bookManifests.FindAll(x => x.ISBN == Isbn);
 
@@ -28,6 +28,9 @@ namespace JoanBookStore
 
         public static void CreateOrUpdateEntry(List<BookManifest> booksManifests, BookManifest bookManifest)
         {
+            //int convertedISBN = 0;
+            //int.TryParse(bookManifest.ISBN, out convertedISBN);
+
             if (!BookManifestOperations.IsIsbnExistInList(booksManifests, bookManifest.ISBN))
             {
                 booksManifests.Add(bookManifest);

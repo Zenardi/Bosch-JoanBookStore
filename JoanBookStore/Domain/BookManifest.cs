@@ -14,7 +14,7 @@ namespace JoanBookStore.Domain
 
         [BsonId]
         [BsonRepresentation(BsonType.ObjectId)]
-        public String ISBN { get; set; }
+        public long ISBN { get; set; }
 
         public String Author { get; set; }
 
