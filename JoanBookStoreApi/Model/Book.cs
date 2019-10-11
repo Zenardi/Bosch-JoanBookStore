@@ -19,7 +19,7 @@ namespace JoanBookStoreApi.Model
 
         public String Description { get; set; }
 
-        public String ISBN { get; set; }
+        public long ISBN { get; set; }
 
         public String Author { get; set; }
 

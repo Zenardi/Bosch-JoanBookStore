@@ -23,18 +23,18 @@ namespace JoanBookStoreApi.Controllers
         //public ActionResult<List<Book>> Get() =>
         //    _bookService.Get().OrderBy(o => o.Genre).OrderBy(o => o.Author.Split(' ')[1]).OrderBy(o => o.Author.Split(' ')[0]).ToList();
 
-        //[HttpGet("{id:length(24)}", Name = "GetBook")]
-        //public ActionResult<Book> Get(string id)
-        //{
-        //    var book = _bookService.Get(id);
+        [HttpGet("{id:length(24)}", Name = "GetBook")]
+        public ActionResult<Book> Get(string id)
+        {
+            var book = _bookService.Get(id);
 
-        //    if (book == null)
-        //    {
-        //        return NotFound();
-        //    }
+            if (book == null)
+            {
+                return NotFound();
+            }
 
-        //    return book;
-        //}
+            return book;
+        }
 
         [HttpGet]
         public List<Book> Get(string genre = "", String author = "", String title="")
@@ -57,7 +57,7 @@ namespace JoanBookStoreApi.Controllers
         }
 
         [HttpPut("{isbn}")]
-        public IActionResult Update(string isbn, Book bookIn)
+        public IActionResult Update(long isbn, Book bookIn)
         {
             var book = _bookService.GetByIsbn(isbn);
             //var book = _bookService.Get(id);
@@ -74,33 +74,34 @@ namespace JoanBookStoreApi.Controllers
         }
 
         [HttpPatch("{isbn}")]
-        public IActionResult Path(string isbn, Book bookIn)
+        public IActionResult Path(long isbn, Book bookIn)
         {
-            var book = _bookService.GetByIsbn(isbn);
+            Book book = _bookService.GetByIsbn(isbn);
             //var book = _bookService.Get(id);
 
             if (book == null)
             {
                 return NotFound();
             }
+            book.Quantity = bookIn.Quantity;
 
             //_bookService.Update(id, bookIn);
-            _bookService.UpdateByIsbn(isbn, bookIn);
+            _bookService.UpdateByIsbn(isbn, book);
 
             return NoContent();
         }
 
-        [HttpDelete("{id:length(24)}")]
-        public IActionResult Delete(string id)
+        [HttpDelete("{isbn:length(24)}")]
+        public IActionResult Delete(string isbn)
         {
-            var book = _bookService.Get(id);
+            var book = _bookService.Get(isbn);
 
             if (book == null)
             {
                 return NotFound();
             }
 
-            _bookService.Remove(book.ISBN);
+            _bookService.Remove(book);
 
             return NoContent();
         }

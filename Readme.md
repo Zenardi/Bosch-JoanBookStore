@@ -129,9 +129,32 @@ http://localhost:52883/api/books?title="Movies (And Other Things)"&author="Shea 
 http://localhost:52883/api/books?genre="Children"&author="Eric Carle"
 
 Path: http://localhost:52883/api/books/9780062963673
+Path Body: 
+
+{
+  "quantity": 255
+}
+
+**Because of the requirements, the endpoint ONLY update the quantity
+
 
 Get: localhost:52883/api/books
 
+
 Post: localhost:52883/api/books
+Post Body:
+
+{
+        "id": "5d9f150e42545722c44d5555",
+        "title": "The Dutch House 3 ",
+        "description": "Sequence of The Dutch House 2",
+        "isbn": "97800629635689",
+        "author": "Ann Patchett",
+        "genre": "Coming-Of-Age Fiction",
+        "pages": 752,
+        "ageRange": "15-35",
+        "price": "$97.99",
+        "quantity": 150
+}
 
 

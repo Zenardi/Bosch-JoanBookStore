@@ -26,7 +26,7 @@ namespace JoanBookStoreApi.Services
         public Book Get(string Id) =>
             _books.Find<Book>(book => book.Id == Id).FirstOrDefault();
 
-        public Book GetByIsbn(string isbn) =>
+        public Book GetByIsbn(long isbn) =>
             _books.Find<Book>(book => book.ISBN == isbn).FirstOrDefault();
 
         public Book Create(Book book)
@@ -38,7 +38,7 @@ namespace JoanBookStoreApi.Services
         public void Update(string id, Book bookIn) =>
             _books.ReplaceOne(book => book.Id == id, bookIn);
 
-        public void UpdateByIsbn(string isbn, Book bookIn) =>
+        public void UpdateByIsbn(long isbn, Book bookIn) =>
            _books.ReplaceOne(book => book.ISBN == isbn, bookIn);
 
 
