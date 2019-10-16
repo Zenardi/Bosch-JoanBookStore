@@ -1,0 +1,15 @@
+C:\Users\zee8ca\source\repos\Bosch-JoanBookStore\JoanBookStoreApiTest\bin\Debug\netcoreapp2.1\NUnit3.TestAdapter.dll
+C:\Users\zee8ca\source\repos\Bosch-JoanBookStore\JoanBookStoreApiTest\bin\Debug\netcoreapp2.1\NUnit3.TestAdapter.pdb
+C:\Users\zee8ca\source\repos\Bosch-JoanBookStore\JoanBookStoreApiTest\bin\Debug\netcoreapp2.1\nunit.engine.netstandard.dll
+C:\Users\zee8ca\source\repos\Bosch-JoanBookStore\JoanBookStoreApiTest\bin\Debug\netcoreapp2.1\Mono.Cecil.dll
+C:\Users\zee8ca\source\repos\Bosch-JoanBookStore\JoanBookStoreApiTest\bin\Debug\netcoreapp2.1\JoanBookStoreApiTest.deps.json
+C:\Users\zee8ca\source\repos\Bosch-JoanBookStore\JoanBookStoreApiTest\bin\Debug\netcoreapp2.1\JoanBookStoreApiTest.runtimeconfig.json
+C:\Users\zee8ca\source\repos\Bosch-JoanBookStore\JoanBookStoreApiTest\bin\Debug\netcoreapp2.1\JoanBookStoreApiTest.runtimeconfig.dev.json
+C:\Users\zee8ca\source\repos\Bosch-JoanBookStore\JoanBookStoreApiTest\bin\Debug\netcoreapp2.1\JoanBookStoreApiTest.dll
+C:\Users\zee8ca\source\repos\Bosch-JoanBookStore\JoanBookStoreApiTest\bin\Debug\netcoreapp2.1\JoanBookStoreApi.dll
+C:\Users\zee8ca\source\repos\Bosch-JoanBookStore\JoanBookStoreApiTest\bin\Debug\netcoreapp2.1\JoanBookStoreApi.pdb
+C:\Users\zee8ca\source\repos\Bosch-JoanBookStore\JoanBookStoreApiTest\obj\Debug\netcoreapp2.1\JoanBookStoreApiTest.csprojAssemblyReference.cache
+C:\Users\zee8ca\source\repos\Bosch-JoanBookStore\JoanBookStoreApiTest\obj\Debug\netcoreapp2.1\JoanBookStoreApiTest.csproj.CoreCompileInputs.cache
+C:\Users\zee8ca\source\repos\Bosch-JoanBookStore\JoanBookStoreApiTest\obj\Debug\netcoreapp2.1\JoanBookStoreApiTest.AssemblyInfoInputs.cache
+C:\Users\zee8ca\source\repos\Bosch-JoanBookStore\JoanBookStoreApiTest\obj\Debug\netcoreapp2.1\JoanBookStoreApiTest.AssemblyInfo.cs
+C:\Users\zee8ca\source\repos\Bosch-JoanBookStore\JoanBookStoreApiTest\obj\Debug\netcoreapp2.1\JoanBookStoreApiTest.csproj.CopyComplete

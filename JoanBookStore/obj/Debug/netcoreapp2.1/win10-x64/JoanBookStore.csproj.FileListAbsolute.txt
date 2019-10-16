@@ -1,0 +1,11 @@
+C:\Users\zee8ca\source\repos\Bosch-JoanBookStore\JoanBookStore\bin\Debug\netcoreapp2.1\win10-x64\JoanBookStore.deps.json
+C:\Users\zee8ca\source\repos\Bosch-JoanBookStore\JoanBookStore\bin\Debug\netcoreapp2.1\win10-x64\JoanBookStore.runtimeconfig.json
+C:\Users\zee8ca\source\repos\Bosch-JoanBookStore\JoanBookStore\bin\Debug\netcoreapp2.1\win10-x64\JoanBookStore.runtimeconfig.dev.json
+C:\Users\zee8ca\source\repos\Bosch-JoanBookStore\JoanBookStore\bin\Debug\netcoreapp2.1\win10-x64\JoanBookStore.dll
+C:\Users\zee8ca\source\repos\Bosch-JoanBookStore\JoanBookStore\bin\Debug\netcoreapp2.1\win10-x64\JoanBookStore.pdb
+C:\Users\zee8ca\source\repos\Bosch-JoanBookStore\JoanBookStore\obj\Debug\netcoreapp2.1\win10-x64\JoanBookStore.csprojAssemblyReference.cache
+C:\Users\zee8ca\source\repos\Bosch-JoanBookStore\JoanBookStore\obj\Debug\netcoreapp2.1\win10-x64\JoanBookStore.csproj.CoreCompileInputs.cache
+C:\Users\zee8ca\source\repos\Bosch-JoanBookStore\JoanBookStore\obj\Debug\netcoreapp2.1\win10-x64\JoanBookStore.AssemblyInfoInputs.cache
+C:\Users\zee8ca\source\repos\Bosch-JoanBookStore\JoanBookStore\obj\Debug\netcoreapp2.1\win10-x64\JoanBookStore.AssemblyInfo.cs
+C:\Users\zee8ca\source\repos\Bosch-JoanBookStore\JoanBookStore\obj\Debug\netcoreapp2.1\win10-x64\JoanBookStore.dll
+C:\Users\zee8ca\source\repos\Bosch-JoanBookStore\JoanBookStore\obj\Debug\netcoreapp2.1\win10-x64\JoanBookStore.pdb
